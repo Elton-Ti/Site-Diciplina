@@ -1,0 +1,109 @@
+{
+  "main": {
+    "name":"Technological Craftsmanship Works",
+    "description":"Especificação de produtos tecnológicos. Análise de viabilidade. Projeto de software e/ou hardware. Desenvolvimento do produto. Testes e aprimoramento. Divulgação à comunidade do processo de desenvolvimento do produto visando facilitar sua replicação. Criação de conteúdos digitais relacionados às ações de extensão.",
+    "image":"profilepic.jpg",
+    "bio":"Como universidade tecnológica, é de suma importância o incentivo ao estudo e aplicação de tecnologias modernas. Esta disciplina extensionista ofertada aos cursos da UTFPR aborda diretamente este assunto: a construção de trabalhos de artesanato tecnológico cujo processo de construção e replicação será disponibilizado à sociedade. Tais trabalhos, além de valorizar o nome da instituição como uma universidade tecnológica, irão incentivar o estudo de tecnologias em ambientes acadêmicos. Por fim, há previsão de pequenos eventos destinados à comunidade externa abordando aspectos específicos dos trabalhos tecnológicos desenvolvidos.",
+    "contactmessage":"É aqui que você deve escrever sua mensagem aos leitores para que eles entrem em contato com você.",
+    "email": "youremailhere@alunos.utfpr.edu.br",
+    "phone": "(41) 9 9999-9999",
+    "github":"",
+    "project":"",
+    "address":{
+      "street":"(Sua Rua)",
+      "city":"(Cidade)",
+      "state":"(Estado)",
+      "zip": "(CEP)"
+    },
+    "website": "",    
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/sistel.UTFPR?mibextid=ZbWKwL",
+        "className":"fa fa-facebook"
+      },      
+      {
+        "name":"instagram",
+        "url":"https://instagram.com/sistel.utfpr?igshid=MWZjMTM2ODFkZg==",
+        "className":"fa fa-instagram"
+      },      
+      {
+        "name":"Moodle",
+        "url":"http://www.utfpr.edu.br/alunos/portal-do-aluno",
+        "className":"fa fa-globe"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Construção do site",
+    "education":[
+      {
+        "school":"UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "degree":"Professor: Marcos Eduardo Pivaro Monteiro",
+        "graduated":"2023",
+        "description":"..."
+      }
+    ],
+    "work":[
+      {
+        "company":"teste",
+        "title":"teste ",
+        "years":"2023 - Present",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Andamento ...",
+        "level":"30%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Desenvolvimento de Tutoriais",
+        "category":"Projetos",
+        "image":"01.jpg",
+        "url":""
+      },     
+      {
+        "title":"TinkerCircuits",
+        "category":"Projetos",
+        "image":"02.jpg",
+        "url":""
+      },     
+      {
+        "title":"Testador de Cabos",
+        "category":"Projetos",
+        "image":"03.jpg",
+        "url":""
+      },     
+      {
+        "title":"Syllabus",
+        "category":"Projetos",
+        "image":"04.jpg",
+        "url":""
+      },     
+      {
+        "title":"projeto5",
+        "category":"Projetos",
+        "image":"01.jpg",
+        "url":""
+      },
+      {
+        "title":"projeto6",
+        "category":"Projetos",
+        "image":"01.jpg",
+        "url":""
+      },
+      {
+        "title":"projeto5",
+        "category":"Projetos",
+        "image":"01.jpg",
+        "url":""
+      }     
+         
+    ]
+  }
+}
