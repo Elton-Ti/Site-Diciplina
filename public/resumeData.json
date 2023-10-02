@@ -30,7 +30,7 @@
       {
         "name":"Moodle",
         "url":"http://www.utfpr.edu.br/alunos/portal-do-aluno",
-        "className":"fa fa-globe"
+        "className":"fa fa-twitter"
       }
     ]
   },
@@ -55,55 +55,65 @@
     "skills":[
       {
         "name":"Andamento ...",
-        "level":"30%"
+        "level":"10%"
       }
     ]
   },
+  "Tutorial":[
+    {
+      
+    }
+  ],
   "portfolio":{
     "projects": [
       {
-        "title":"Desenvolvimento de Tutoriais",
+        "title":"Tutorial Packet Tracert",
         "category":"Projetos",
-        "image":"01.jpg",
-        "url":""
+        "image":"cisco.jpg",
+        "url":"https://github.com/Elton-Ti/Site-art",
+        "text":"O Cisco Packet Tracer é uma poderosa ferramenta de simulação de rede desenvolvida pela Cisco Systems. Ela permite que você pratique habilidades de rede, IoT e cibersegurança em um laboratório virtual, sem a necessidade de hardware. Com este tutorial, você vai aprender a compreender melhor o endereçamento IP, criar redes simples e mais complexas, visualizar como uma rede funciona, praticar habilidades de rack, cabeamento no laboratório virtual e integrar dispositivos.",
+        "alunos":"Amanda Alves Da Rocha"        
       },     
       {
-        "title":"TinkerCircuits",
+        "title":"Tutorial TinkerCircuits",
         "category":"Projetos",
-        "image":"02.jpg",
-        "url":""
+        "image":"tinkercad.jpg",
+        "url":"",
+        "text":"Um dos principais desafios ao entrar no curso tecnólogo de sistemas de telecomunicações é entender de fato sistemas eletrônicos, como eles funcionam e a base da eletricidade. Este tutorial tem como objetivo disponibilizar conhecimentos valiosos que ajudarão a enfrentar esses desafios. Utilizando o TinkerCircuits, com auxílio desde a criação da conta, você poderá compreender melhor sobre tensão, indutores, capacitores, associação de resistores, algumas das leis relacionadas à eletricidade, construir circuitos simples e complexos, visualizar como um circuito funciona, entre outras coisas.",
+        "alunos":"Jacqueline Agatha" 
       },     
       {
-        "title":"Testador de Cabos",
+        "title":"Testador de cabos",
         "category":"Projetos",
-        "image":"03.jpg",
-        "url":""
+        "image":"testador.jpg",
+        "url":"",
+        "text":"O objetivo deste projeto foi criar dois modelos de testador de cabos, sendo um simples e outro utilizando Arduino. Como a maioria dos componetes usados os alunos adquirem ao longo do curso para realizarem tarefas relacionadas a determinadas diciplinas, este trabalho visa incentivar os alunos aproveitarem esses materiais para construírem a ferramenta e modificar ao seu modo.",
+        "alunos":"Gustavo de Souza, Emilio Gustavo, Lysandro Neto,Reeder Teixeira e Giovani Giovanella" 
       },     
+      {
+        "title":" UTFPR EM 3D",
+        "category":"Projetos",
+        "image":"utfpr3d.jpg",
+        "url":"",
+        "text":"O objetivo deste projeto foi criar o Bloco Q da UTFPR, que é o bloco ao qual ocorrem a maioria das aulas do curso de sistemas de telecomunicações, em um ambiente virtual 3D. Garantir que a representação seja precisa e fiel ao ambiente rea, criando elementos interativos para aprimorar a experiência do usuário.",
+        "alunos":"Scheila de Oliveira, Eduardo Rodrigues e Robson Morais" 
+      },
       {
         "title":"Syllabus",
         "category":"Projetos",
-        "image":"04.jpg",
-        "url":""
-      },     
-      {
-        "title":"projeto5",
-        "category":"Projetos",
-        "image":"01.jpg",
-        "url":""
+        "image":"syllabus.jpg",
+        "url":"",
+        "text":"Com a troca de grade que ocorreu em nosso curso, inclusão de trilhas, horas aulas extencionistas, entre outras, veio junto algumas duvidas e também podendo gerar uma certa confusão na hora de fazer o calculo necessario para finalizar cada trilha ou objetivo do curso. Este projeto criara um sistema que ajudara a realizar o calculo necessario de horas que faltam para a formação dos alunos, integrado ao site da disciplina",
+        "alunos":"Lauro, Igor, Matheus Aparecido Pohl Gasoto" 
       },
       {
-        "title":"projeto6",
+        "title":"Jaeger",
         "category":"Projetos",
-        "image":"01.jpg",
-        "url":""
-      },
-      {
-        "title":"projeto5",
-        "category":"Projetos",
-        "image":"01.jpg",
-        "url":""
-      }     
-         
+        "image":"robo.jpg",
+        "url":"",
+        "text":"teste" 
+      }
+        
     ]
   }
 }
