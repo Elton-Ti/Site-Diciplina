@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
 import Modal from "react-modal"; // Importe o react-modal
-import YouTubeVideo from "./YouTubeVideo";
+import YouTubeVideo from './YouTubeVideo';
 
 let id = 0;
 
@@ -82,7 +82,7 @@ class Portfolio extends Component {
               transform: "translate(-50%, -50%)",
               width: "90%",
               height:"90%",
-              maxWidth: "1300px",
+              maxWidth: "900px",
               border: "none",
               borderRadius: "8px",
               padding: "20px",
@@ -115,7 +115,9 @@ class Portfolio extends Component {
                 Saiba mais
               </a>       
               <p></p>
-              <YouTubeVideo />
+              {this.state.selectedProject.video && (
+                <YouTubeVideo videoId={this.state.selectedProject.video} />
+              )}            
             </div>
 
             
