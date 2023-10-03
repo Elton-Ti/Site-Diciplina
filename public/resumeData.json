@@ -119,6 +119,15 @@
         "text":"teste",
         "alunos":"Fulano, Ciclano",
         "video":"84IEEw9Xyl0" 
+      },
+      {
+        "title":"Semana Acadêmica",
+        "category":"Projetos",
+        "image":"semana.jpg",
+        "url":"http://www.utfpr.edu.br/cursos/coordenacoes/graduacao/curitiba/ct-tecnologia-em-sistemas-de-telecomunicacoes/area-academica/eventos/satele2020",
+        "text":"A 2ª Semana Acadêmica de Telecomunicações tem por objetivo propiciar um espaço de troca de experiências e conhecimento técnico entre profissionais, estudantes, pesquisadores e alunos do curso de Tecnologia em Sistemas de Telecomunicações e de cursos afins. O evento é completamente gratuito e aberto a todos os alunos da UTFPR Curitiba, de outras instituições e à comunidade em geral. Após a inscrição e participação no evento, haverá emissão de certificados de participação.",
+        "alunos":"DAELN",
+        "video":"" 
       }
         
     ]

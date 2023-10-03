@@ -46,7 +46,11 @@ class Portfolio extends Component {
             <Zmage
               alt={project.title}
               src={projectImage}
-              onClick={() => this.openModal(project)}               
+              onClick={() => this.openModal(project)} 
+              style={{ 
+                borderRadius: "20px",
+                border:"2px"
+              }}              
             />
             <div style={{ textAlign: "center" }}>{project.title}</div>
           </div>
