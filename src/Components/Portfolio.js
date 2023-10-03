@@ -79,8 +79,9 @@ class Portfolio extends Component {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              width: "80%",
-              maxWidth: "700px",
+              width: "90%",
+              height:"90%",
+              maxWidth: "1300px",
               border: "none",
               borderRadius: "8px",
               padding: "20px",
@@ -111,8 +112,10 @@ class Portfolio extends Component {
               <p></p>     
               <a href={this.state.selectedProject.url} target="_blank" rel="noopener noreferrer">
                 Saiba mais
-              </a>     
+              </a>       
             </div>
+
+            
           )}
         </Modal>
       </section>
