@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
 import Modal from "react-modal"; // Importe o react-modal
+import YouTubeVideo from "./YouTubeVideo";
 
 let id = 0;
 
@@ -113,6 +114,8 @@ class Portfolio extends Component {
               <a href={this.state.selectedProject.url} target="_blank" rel="noopener noreferrer">
                 Saiba mais
               </a>       
+              <p></p>
+              <YouTubeVideo />
             </div>
 
             

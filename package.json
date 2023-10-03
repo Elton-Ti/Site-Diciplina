@@ -16,6 +16,7 @@
     "react-modal": "^3.16.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
+    "react-youtube": "^10.1.0",
     "react-zmage": "^0.8.5-beta.36",
     "web-vitals": "^1.0.1"
   },
