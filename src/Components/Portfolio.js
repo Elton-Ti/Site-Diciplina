@@ -38,11 +38,15 @@ class Portfolio extends Component {
 
       return (
         <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
+          <div className="item-wrap" 
+          style={{ 
+            borderRadius: "30px",
+            border: "1px solid rgba(0, 0, 0, 0.1)"
+          }}>
             <Zmage
               alt={project.title}
               src={projectImage}
-              onClick={() => this.openModal(project)} // Abra o modal ao clicar na imagem
+              onClick={() => this.openModal(project)}               
             />
             <div style={{ textAlign: "center" }}>{project.title}</div>
           </div>

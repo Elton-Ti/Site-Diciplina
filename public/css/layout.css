@@ -488,6 +488,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   transition: filter 0.3s ease;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -501,6 +502,12 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 /* on hover */
+.item-wrap:hover {
+   transform: scale(1.1); /* Aumenta em 10% */
+   transition: transform 0.3s ease; /* Adiciona uma transição suave */
+   filter: brightness(0.85);
+ }
+
 .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
