@@ -117,7 +117,14 @@ class Portfolio extends Component {
               <h2>{this.state.selectedProject.title}</h2>
               <p>{this.state.selectedProject.description}</p> 
               <h6>{this.state.selectedProject.alunos}</h6>  
-              <span>{this.state.selectedProject.text}</span>
+              <span 
+                style={{ textAlign: 'justify', 
+                  display: 'block', 
+                  width: '100%'
+                }}>
+                {this.state.selectedProject.text}
+              </span>
+
               <p></p>     
               <a href={this.state.selectedProject.url} target="_blank" rel="noopener noreferrer">
                 Saiba mais
