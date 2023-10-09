@@ -79,21 +79,25 @@ class Portfolio extends Component {
         <Modal
           isOpen={this.state.showModal}
           onRequestClose={this.closeModal}
+          swipeDirection='down'
           contentLabel="Project Description"
           style={{
             overlay: {
               backgroundColor: "rgba(0, 0, 0, 0.75)",
             },
             content: {
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              width: "90%",
-              height:"90%",
-              maxWidth: "900px",
+              top: "15%",
+              left: "15%",
+              transform: "translate(0%, 0%)",
+              //minHeight: "40%",
+              //minWidth: "50%",
+              maxWidth: "1300px",
+              maxHeight:"60%",
               border: "none",
               borderRadius: "8px",
               padding: "20px",
+              overflow: "auto",
+              scrollbarWidth: "thin",
             },
           }}
         >
@@ -115,27 +119,20 @@ class Portfolio extends Component {
           {this.state.selectedProject && (
             <div>
               <h2>{this.state.selectedProject.title}</h2>
-              <p>{this.state.selectedProject.description}</p> 
-              <h6>{this.state.selectedProject.alunos}</h6>  
-              <span 
-                style={{ textAlign: 'justify', 
-                  display: 'block', 
-                  width: '100%'
-                }}>
-                {this.state.selectedProject.text}
-              </span>
-
-              <p></p>     
+              <p>{this.state.selectedProject.description}</p>
+              <h6>{this.state.selectedProject.alunos}</h6>
+              <div style={{ display: 'flex', alignItems: 'center'}}>
+              <span style={{ maxWidth: '50%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                {this.state.selectedProject.text}</span>
+                {this.state.selectedProject.video && (
+                  <YouTubeVideo videoId={this.state.selectedProject.video} />
+                )}
+              </div>
+              <p></p>
               <a href={this.state.selectedProject.url} target="_blank" rel="noopener noreferrer">
                 Saiba mais
-              </a>       
-              <p></p>
-              {this.state.selectedProject.video && (
-                <YouTubeVideo videoId={this.state.selectedProject.video} />
-              )}            
+              </a>
             </div>
-
-            
           )}
         </Modal>
       </section>
