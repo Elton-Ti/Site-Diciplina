@@ -3,8 +3,8 @@ import YouTube from 'react-youtube';
 
 function YouTubeVideo({ videoId }) {
   const opts = {
-    height: '56.25%', // 16:9 aspect ratio (9/16 * 100)
-    width: '100%',
+    height: '340px', // 16:9 aspect ratio (9/16 * 100)
+    width: '480px',
     playerVars: {
       autoplay: 0,
       controls: 1,
