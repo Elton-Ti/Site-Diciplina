@@ -122,7 +122,7 @@ class Portfolio extends Component {
               <p>{this.state.selectedProject.description}</p>
               <h6>{this.state.selectedProject.alunos}</h6>
               <div style={{ display: 'flex', alignItems: 'center'}}>
-              <span style={{ maxWidth: '50%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+              <span style={{ maxWidth: '50%', overflow: 'hidden', textOverflow: 'ellipsis' , padding: "50px", textAlign:"justify"}}>
                 {this.state.selectedProject.text}</span>
                 {this.state.selectedProject.video && (
                   <YouTubeVideo videoId={this.state.selectedProject.video} />
