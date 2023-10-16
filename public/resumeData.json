@@ -5,7 +5,7 @@
     "image":"profilepic.jpg",
     "bio":"Como universidade tecnológica, é de suma importância o incentivo ao estudo e aplicação de tecnologias modernas. Esta disciplina extensionista ofertada aos cursos da UTFPR aborda diretamente este assunto: a construção de trabalhos de artesanato tecnológico cujo processo de construção e replicação será disponibilizado à sociedade. Tais trabalhos, além de valorizar o nome da instituição como uma universidade tecnológica, irão incentivar o estudo de tecnologias em ambientes acadêmicos. Por fim, há previsão de pequenos eventos destinados à comunidade externa abordando aspectos específicos dos trabalhos tecnológicos desenvolvidos.",
     "contactmessage":"É aqui que você deve escrever sua mensagem aos leitores para que eles entrem em contato com você.",
-    "email": "youremailhere@alunos.utfpr.edu.br",
+    "email": "technologicalcraftsmanship@gmail.com",
     "phone": "(41) 3310-4545",
     "github":"",
     "project":"",
@@ -30,7 +30,12 @@
       {
         "name":"Moodle",
         "url":"http://www.utfpr.edu.br/alunos/portal-do-aluno",
-        "className":"fa fa-twitter"
+        "className":"fa fa-globe"
+      },      
+      {
+        "name":"Youtube",
+        "url":"https://www.youtube.com/@TechnologicalCraftsmanship/featured",
+        "className":"fa fa-youtube"
       }
     ]
   },
@@ -46,16 +51,16 @@
     ],
     "work":[
       {
-        "company":"teste",
-        "title":"teste ",
-        "years":"2023 - Present",
+        "company":"",
+        "title":" ",
+        "years":"",
         "description":""
       }
     ],
     "skills":[
       {
         "name":"Andamento ...",
-        "level":"10%"
+        "level":"30%"
       }
     ]
   },
