@@ -9,6 +9,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import YouTubeVideo from './Components/YouTubeVideo';
+import ImageBanner from "./Components/Banner";
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
+        <ImageBanner />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />

@@ -1,0 +1,11 @@
+.image-banner {
+    display: flex;
+  }
+  
+  .image-item {
+    width: 150px; /* Largura fixa para os quadrados */
+    height: 150px; /* Altura fixa para os quadrados */
+    margin: 5px; /* Espaçamento entre os quadrados */
+    object-fit: cover; /* Redimensiona a imagem para preencher o quadrado */
+  }
+  
